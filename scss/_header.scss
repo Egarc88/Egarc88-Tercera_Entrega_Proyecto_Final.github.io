@@ -1,0 +1,60 @@
+.nav-link {
+&:hover {
+    background-color: $colorFunte;
+color: black;
+font-size: 25px;
+border: white 1px solid;
+border-radius: 25px;
+box-shadow: 3px 3px gray; 
+}
+}
+.content01 {
+    @include Card;
+    }
+
+.cortesFinos{
+    width: 30rem;
+}
+h2{
+color: $colorFunte;
+
+}
+.img{
+    width: 17rem;
+    height:15rem;
+}
+.text{
+    color: $Subtitulos;
+}
+// Map Get
+$estiloCar:(altura:20vw 20vw, fit:cover);
+.carousel{
+height: map-get($estiloCar,altura);
+object-fit: map-get($estiloCar,fit );
+}
+.video{
+    @include Card;
+}
+.card-text{
+color:whitesmoke;
+font-size: 3vw;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+
+}
+.card-img {
+    margin-bottom: auto;
+    width: 100vw;
+    height: 75vw;
+    opacity: 25%;
+
+}
+.card-img-top{
+    width: 31vw;
+    height:31vw; 
+    &:hover {
+        transform: scale(1.5);
+        border: 2px solid orange;
+        
+    }
+}

@@ -1,0 +1,38 @@
+.formulario{
+    @include Card;
+}
+.form{
+    background-color: #f4991a;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form {
+    grid-area: forn;
+}
+.logo{
+    width: 60vw;
+}
+.cortesFinos{
+  height:50vw;
+  width:50vw;
+}
+.fondo{
+    opacity: 70%;
+    background-size:cover;
+    background-image: url(../imagenes/2020-11-12.png)
+    
+   
+}

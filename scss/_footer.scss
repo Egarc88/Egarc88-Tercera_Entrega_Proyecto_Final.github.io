@@ -1,0 +1,22 @@
+// ............Footer........
+//  mixin
+@mixin estilofooter {
+    border: 3px black solid;
+    text-align: center;
+    border: 5px black solid;
+    background-color: black;
+    color: white;
+}  
+
+.footer {
+    @include estilofooter;
+}
+
+.iconify {
+    font-size: 4rem;
+    color: $colorFunte;
+}
+// extend
+.redes{
+    @extend .text;
+}
